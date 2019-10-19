@@ -1,0 +1,14 @@
+.media-wrap img{
+    width: 50%;
+}
+.media-wrap{
+    background: #e06665;
+}
+.media-wrap .media-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.media-wrap .media-body{
+    margin: 20px 20px 20px 50px;
+    color: white;
+}

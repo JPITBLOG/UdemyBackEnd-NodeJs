@@ -1,0 +1,29 @@
+.main-checkout-wrap{
+    margin-top: 29px;
+    margin-left: 30px;
+    height: calc(100vh - 222px);
+}
+.checkout-data{
+    overflow-y: scroll;
+    border: 1px solid red;
+    width: 300px;
+    float: left;
+    height: 250px;
+    position: relative;
+    margin-right: 30px;
+}
+
+.checkout-wrap{
+    margin: 0px 0 0 15px;
+}
+
+.checkout-wrap .media-body h4{
+    font-size: 15px;
+}
+.checkout-wrap .course-wrap p{
+    margin: 0;
+}
+.checkout-wrap .instructorName{
+    font-size: 13px;
+    color: #686f7a;
+}

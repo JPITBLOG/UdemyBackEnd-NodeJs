@@ -1,0 +1,86 @@
+.TopicCards-slider {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 1140px;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    margin: 4px 0;
+    /*border: 1px solid #D8D8D8;*/
+    /*box-shadow: 1px 1px 10px #D8D8D8;*/
+}
+.TopicCard {
+    float: left !important;
+    text-align: left;
+    background: #fff;
+    width: 222px;
+    position: relative;
+    display: inline-block;
+    left: 0;
+    clear: both;
+    margin-right: 6px;
+    margin-left: 1px;
+    float: none !important;
+    transition: transform .2s ease-in-out;
+    vertical-align: top;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+}
+.card p{
+    word-break: break-all;
+    white-space: normal;
+}
+.card-wrap{
+    margin: 15px;
+}
+.card .title {
+    font-weight: 600;
+    font-size: 18px;
+    border-bottom: 1px solid #D8D8D8;
+}
+.card .desc {
+    font-size: 14px;
+    word-wrap: break-word;
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
+}
+.card img {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.slider-btn {
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    color: #b3b3b3;
+    width: 45px;
+    height: 100%;
+    border: 0;
+    cursor: pointer;
+    background: none;
+    outline: none;
+    position: absolute;
+    z-index: 999;
+    transition: all 0.6s ease 0s;
+}
+.slider-btn:hover {
+    color: #5f5f5f;
+    background: rgba(0,0,0,0.2);
+}
+.btn-r {
+    right: 0;
+}
+.btn-l {
+    left: 0px;
+}
+@media (min-width: 576px) {
+    .styles--clickable-banner--QHEVe {
+        padding-bottom: 32px;
+    }
+}
+.styles--clickable-banner--QHEVe {
+    padding-bottom: 16px;
+}
+.popup-btn{
+    color: #e06665;
+}

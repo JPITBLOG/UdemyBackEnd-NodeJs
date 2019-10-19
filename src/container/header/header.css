@@ -1,0 +1,130 @@
+.header-custom {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*background: inherit;*/
+    /*box-sizing: border-box;*/
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
+    /*max-width: 1440px;*/
+    /*margin: auto;*/
+}
+.header-custom .nav-item{
+    padding: 0 15px;
+}
+
+.header-cat {
+    color: #9b9fa5;
+    margin-right: 4px;
+    padding-top: 7px;
+    font-weight: 500;
+}
+
+.cart .login {
+    background-color: #ec5252;
+    border: 1px solid transparent;
+}
+
+.cart .login span {
+    color: #fff;
+}
+
+.cart .singup {
+    color: #686f7a;
+    background-color: #fff;
+    border: 1px solid #686f7a;
+}
+
+.cart .btn-custom {
+    color: #505763;
+    font-weight: 400;
+    font-size: 13px;
+    border-radius: 0;
+    border: 1px solid #686f7a;
+}
+
+.btn-login {
+    margin: 5px;
+}
+
+.icon {
+    height: 20px;
+    width: 40px;
+    display: block;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 8px;
+}
+
+.cart img {
+    width: 50px;
+    height: auto;
+}
+
+.input-wrap .form-control {
+    position: relative;
+    border-radius: 0;
+}
+
+.input-wrap .input-group-append {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    z-index: 99;
+}
+
+.input-wrap {
+    width: 100%;
+}
+.navitem-width{
+    flex: 3;
+}
+.navbar-main-wrap{
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+}
+
+ span{
+    font-size: 20px !important;
+}
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .input-wrap {
+        min-width: auto;
+        width: 100%;
+    }
+}
+.btn-primary {
+    color: #fff;
+    background-color: #ec5252;
+    border: 1px solid transparent;
+}
+.notification {
+    /*background-color: #555;*/
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.notification:hover {
+    /*background: red;*/
+}
+
+.notification .badge {
+    position: absolute;
+    top: 0px;
+    right: 15.5px;
+    padding: 1px 7px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
+
+

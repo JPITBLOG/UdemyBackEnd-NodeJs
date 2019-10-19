@@ -1,0 +1,112 @@
+.style--jumbotron-header-bar--cart--3GsX0 {
+    background: #59616f;
+}
+.header-Content .jumbotron-header-bar {
+    border-radius: 0;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.jumbotron .container {
+    max-width: 100%;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.jumbotron-header-bar__inner {
+    padding: 34px 0;
+    display: table;
+    table-layout: fixed;
+    width: 80%;
+    margin: 0 auto;
+}
+.jumbotron-header-bar h1 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.287;
+    margin: 0;
+}
+.jumbotron h1, .jumbotron .h1 {
+    color: inherit;
+}
+.jumbotron-header-bar .breadcrumb {
+    margin-bottom: 0;
+}
+.breadcrumb {
+    padding: 0;
+    margin-bottom: 21px;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 2px;
+}
+ol {
+    marginTop: 0;
+    margin-bottom: 10.5px;
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.breadcrumb a .udi {
+    color: #a1a7b3;
+}
+.udi {
+    vertical-align: -8%;
+}
+.udi {
+    font-family: udemyicons!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.main-wrap{
+    border: 1px solid #9b9fa5;
+    margin: 15px 0px;
+
+}
+.main-wrap .media-body h4{
+    font-size: 15px;
+}
+.main-wrap .course-wrap p{
+    margin: 0;
+}
+.course-wrap .remove-text{
+    color: #007791;
+    font-weight: 400;
+    font-size: 13px;
+}
+.course-wrap .instructorName{
+    font-size: 13px;
+    color: #686f7a;
+}
+.checkoutbtn{
+    width: 240px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+.cart-wrap{
+    display: flex;
+}
+.wrapCart{
+    margin:0 auto;
+    width:50%;
+}
+

@@ -1,0 +1,62 @@
+.HeaderComponent{
+    height: 40vh;
+    background-color: #29303B;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.carousel-fullscreen-sidebar {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.streamer__content{
+    color: #ffffff;
+    width: 65%;
+}
+.streamer__content h3{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.streamer__content p{
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 5px;
+}
+
+.learnBox{
+    margin-top: 20px;
+    background-color: #f7f8fa;
+    padding: 16px;
+    border:1px solid #dee0e5;
+}
+.row{
+    padding-bottom: 10px;
+}
+.course-info{
+    padding-top: 20px;
+}
+.coursecontent-wrap{
+    background-color: #f7f8fa;
+    border:1px solid #dee0e5;
+}
+.course-title{
+    border:1px solid #dee0e5;
+}
+
+.course-requirement{
+    padding-top: 20px;
+}
+
+@media (max-width: 480px) {
+    .streamer__content{
+        background-color: red;
+    }
+}

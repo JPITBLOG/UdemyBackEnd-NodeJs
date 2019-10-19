@@ -1,0 +1,72 @@
+.unit-title--title-box--3tVMv h2 {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.47em;
+    color: #505763;
+}
+
+.navbar-wrap {
+    background-color: #f7f8fa;
+    min-height: 44px;
+    display: flex;
+    border-bottom: 1px solid #dedfe0;
+    align-items: center;
+}
+
+.navbar-wrap .nav-item a {
+    font-weight: 700;
+    color: #686f7a;
+    font-size: 15px;
+}
+
+.navbar-item .nav-item a {
+    font-weight: 200;
+    color: #14171c;
+}
+
+.main-class {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.course-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.course-header{
+    margin: 0px ;
+    margin-left: 10%;
+}
+
+.course-content{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.slide-container .TopicCard p :hover{
+    box-shadow: 0 0 5px 1px rgba(20,23,28,.1), 0 3px 6px 1px rgba(20,23,28,.1);
+}
+.slide-container .TopicCard p button {
+    width: 100%;
+    border: 1px solid transparent;
+    color: #505763;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+    border-radius: 0;
+    padding: 15px;
+}
+
+.gradiant-course{
+    width: 100%;
+    background: linear-gradient(220deg,#EC5252 -30%,#6E1A52 70%);
+    color: #fff;
+    min-height: 100px;
+    padding-top: 22px;
+    transition: min-height .3s ease;
+}
+.gradiant-courseName{
+    width: 80%;
+}
+
+

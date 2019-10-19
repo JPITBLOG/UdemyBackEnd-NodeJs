@@ -1,0 +1,24 @@
+tr.hide_all > td, td.hide_all{
+    border-style:hidden;
+}
+.main-wrap{
+    border-bottom: 1px solid #9b9fa5;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: white;
+}
+
+.main-wrap .media-body{
+    margin-left: 15px;
+}
+.course-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.price-list{
+    display: flex;
+    flex-direction: column;
+}
+.price-list p {
+    margin: 0;
+}
